@@ -1,25 +1,29 @@
-.speech{
+.speech {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
-.direction{
+
+.direction {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     background-color: lightblue;
 }
-.direction:hover{
-     color:rgb(97, 12, 235);
-     background-color: lightcyan;
+
+.direction:hover {
+    color: rgb(97, 12, 235);
+    background-color: lightcyan;
 }
-.manders{
-color: rgb(140, 5, 5);
-font-size:medium;
+
+.manders {
+    color: rgb(140, 5, 5);
+    font-size: medium;
 }
-.alving{
-color: rgb(1, 60, 1);
-font-size: medium;
+
+.alving {
+    color: rgb(1, 60, 1);
+    font-size: medium;
 }
 
 table {
@@ -28,7 +32,8 @@ table {
     margin: 60px;
 }
 
-table th, table td {
+table th,
+table td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
@@ -36,11 +41,23 @@ table th, table td {
 }
 
 table th {
-    background-color:gray;
+    background-color: gray;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
 table tbody tr:nth-child(even) {
     background-color: #f2f2f2;
+}
+
+.manders:hover {
+    color: rgb(9, 24, 239);
+    text-shadow: 3px 2px 3px rgb(48, 163, 121);
+    background-color: rgb(96, 140, 34);
+}
+
+.alving:hover {
+    color: rgb(139, 34, 93);
+    text-shadow: 3px 2px 3px rgb(56, 56, 160);
+    background-color: rgb(59, 187, 117);
 }
