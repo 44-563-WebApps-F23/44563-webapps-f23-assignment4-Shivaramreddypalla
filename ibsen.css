@@ -1,0 +1,23 @@
+.speech{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.direction{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    background-color: lightblue;
+}
+.direction:hover{
+     color:rgb(97, 12, 235);
+     background-color: lightcyan;
+}
+.manders{
+color: rgb(140, 5, 5);
+font-size:medium;
+}
+.alving{
+color: rgb(1, 60, 1);
+font-size: medium;
+}
