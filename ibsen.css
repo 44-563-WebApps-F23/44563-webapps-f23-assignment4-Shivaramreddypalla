@@ -21,3 +21,26 @@ font-size:medium;
 color: rgb(1, 60, 1);
 font-size: medium;
 }
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 60px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+table th {
+    background-color:gray;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
