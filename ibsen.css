@@ -61,3 +61,34 @@ table tbody tr:nth-child(even) {
     text-shadow: 3px 2px 3px rgb(56, 56, 160);
     background-color: rgb(59, 187, 117);
 }
+
+.img{
+    width: 150px;
+    height: 200px;
+    margin-top: 30px;
+  margin-bottom: 11px;
+    margin-right: 100px;
+   margin-left: 80px;
+  }
+  
+.navbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px; 
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
